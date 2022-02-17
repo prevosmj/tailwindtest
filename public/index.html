@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ka-Ching</title>
+</head>
+<body>
+    <nav role="navigation" class="flex justify-between items-center h-16 bg-gradient-to-r from-green-900 to-green-600 text-white hover:text-black font-bold relative">
+        <a href="index.html" class="pl-6">Unlimited Money Ltd</a>
+        <div class="px-4 cursor-pointer md:hidden" id="bars">
+            <i class="fa fa-bars pr-2" style="scale: 175%"></i>
+        </div>
+        <div class="hidden md:block" id="menu">
+            <a href="#" class="p-4">Stocks</a>
+            <a href="#" class="p-4">Bonds</a>
+            <a href="#" class="p-4">Options</a>
+        </div>
+    </nav>
+
+    <div 
+        class="bg-no-repeat h-screen bg-center bg-cover flex justify-center items-center setup" 
+        style="background-image:url('./img/money.jpg')">
+
+        <div class="flex justify-center items-center text-center font-bold">
+            <div class="flex justify-center items-center textbox p-10">
+                <h1 class="lg:text-8xl sm:text-7xl text-5xl mb-20 text-black hover:text-green-700 duration-300 opacity-100 titletext">I Am Going to Steal Your Money</h1>
+                <div class="flex justify-center items-center">
+                    <button class='relative bg-green-600 text-white p-5 rounded lg:text-3xl md:text-2xl sm:text-2xl font-bold overflow-hidden mr-11 btnh duration-300'>
+                        The Easy Way
+                        <div class="ribbon bg-red-500 text-sm whitespace-no-wrap px-4">premium</div>
+                        </button>
+                        <br/><br/><br/>
+                    <button class='relative bg-green-600 text-white p-5 rounded lg:text-3xl md:text-2xl sm:text-2xl font-bold overflow-hidden ml-11 btnh duration-300'>
+                        The Hard Way
+                        <div class="ribbon bg-red-500 text-sm whitespace-no-wrap px-4">FREE</div>
+                        </button>
+                        <br/><br/><br/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
